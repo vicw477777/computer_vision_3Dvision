@@ -1,0 +1,27 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
+Sampling interval: 10
+Loading model...
+Loading frames from video: data/bed.mp4
+Found 59 images/frames. Processing...
+All images will be resized to a uniform size: (378, 672)
+Running model inference...
+[PiXVO] Total frames: 59, Chunk size: 16, Overlap: 6
+  > Inference chunk: [0 : 16] (Length: 16)
+  > Inference chunk: [10 : 26] (Length: 16)
+  > Inference chunk: [20 : 36] (Length: 16)
+  > Inference chunk: [30 : 46] (Length: 16)
+  > Inference chunk: [40 : 56] (Length: 16)
+  > Inference chunk: [50 : 59] (Length: 9)
+Saving point cloud to: results/pi3/bed/sparse_points.ply
+Original point cloud size: 14687861 points
+Downsampling point cloud using voxel grid (voxel_size=0.1)...
+Downsampled point cloud size: 2139 points (reduction: 100.0%)
+Saving images to: results/pi3/bed/images
+Saving downsampled images (4x) to: results/pi3/bed/images_4
+Computing depth maps from points and poses...
+Saving depth maps to: results/pi3/bed/depths
+Saving COLMAP format to: results/pi3/bed/colmap/sparse/0
+Estimated intrinsics: fx=580.72, fy=580.72, cx=189.00, cy=336.00
+Saving transforms.json to: results/pi3/bed/transforms.json
+Done.

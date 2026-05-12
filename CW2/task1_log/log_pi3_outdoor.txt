@@ -1,0 +1,29 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
+Sampling interval: 10
+Loading model...
+Loading frames from video: data/outdoor.mp4
+Found 84 images/frames. Processing...
+All images will be resized to a uniform size: (378, 672)
+Running model inference...
+[PiXVO] Total frames: 84, Chunk size: 16, Overlap: 6
+  > Inference chunk: [0 : 16] (Length: 16)
+  > Inference chunk: [10 : 26] (Length: 16)
+  > Inference chunk: [20 : 36] (Length: 16)
+  > Inference chunk: [30 : 46] (Length: 16)
+  > Inference chunk: [40 : 56] (Length: 16)
+  > Inference chunk: [50 : 66] (Length: 16)
+  > Inference chunk: [60 : 76] (Length: 16)
+  > Inference chunk: [70 : 84] (Length: 14)
+Saving point cloud to: results/pi3/outdoor/sparse_points.ply
+Original point cloud size: 19462247 points
+Downsampling point cloud using voxel grid (voxel_size=0.1)...
+Downsampled point cloud size: 170184 points (reduction: 99.1%)
+Saving images to: results/pi3/outdoor/images
+Saving downsampled images (4x) to: results/pi3/outdoor/images_4
+Computing depth maps from points and poses...
+Saving depth maps to: results/pi3/outdoor/depths
+Saving COLMAP format to: results/pi3/outdoor/colmap/sparse/0
+Estimated intrinsics: fx=568.81, fy=568.81, cx=189.00, cy=336.00
+Saving transforms.json to: results/pi3/outdoor/transforms.json
+Done.

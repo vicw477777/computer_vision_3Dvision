@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments / installers
+Miniforge3.sh
+miniforge3/
+Miniconda3.sh
+miniconda3/
+.venv/
+venv/
+env/
+
+# Data / external repos / outputs
+data/
+external/
+outputs/
+results/
+runs/
+wandb/
+checkpoints/
+
+# Large files
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+
+# System
+.DS_Store
+

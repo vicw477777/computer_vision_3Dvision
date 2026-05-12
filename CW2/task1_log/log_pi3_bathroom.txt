@@ -1,0 +1,30 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Warning, cannot find cuda-compiled version of RoPE2D, using a slow pytorch version instead
+Sampling interval: 10
+Loading model...
+Loading frames from video: data/bathroom.mp4
+Found 94 images/frames. Processing...
+All images will be resized to a uniform size: (378, 672)
+Running model inference...
+[PiXVO] Total frames: 94, Chunk size: 16, Overlap: 6
+  > Inference chunk: [0 : 16] (Length: 16)
+  > Inference chunk: [10 : 26] (Length: 16)
+  > Inference chunk: [20 : 36] (Length: 16)
+  > Inference chunk: [30 : 46] (Length: 16)
+  > Inference chunk: [40 : 56] (Length: 16)
+  > Inference chunk: [50 : 66] (Length: 16)
+  > Inference chunk: [60 : 76] (Length: 16)
+  > Inference chunk: [70 : 86] (Length: 16)
+  > Inference chunk: [80 : 94] (Length: 14)
+Saving point cloud to: results/pi3/bathroom/sparse_points.ply
+Original point cloud size: 22772514 points
+Downsampling point cloud using voxel grid (voxel_size=0.1)...
+Downsampled point cloud size: 5436 points (reduction: 100.0%)
+Saving images to: results/pi3/bathroom/images
+Saving downsampled images (4x) to: results/pi3/bathroom/images_4
+Computing depth maps from points and poses...
+Saving depth maps to: results/pi3/bathroom/depths
+Saving COLMAP format to: results/pi3/bathroom/colmap/sparse/0
+Estimated intrinsics: fx=719.81, fy=719.81, cx=189.00, cy=336.00
+Saving transforms.json to: results/pi3/bathroom/transforms.json
+Done.

@@ -1,0 +1,12 @@
+Number of frames in video: 1104
+Extracting 368 frames in evenly spaced intervals
+[12:17:40] 🎉 Done converting video to images.                                                 process_data_utils.py:227
+[12:18:23] 🎉 Done extracting COLMAP features.                                                       colmap_utils.py:137
+[12:26:15] 🎉 Done matching COLMAP features.                                                         colmap_utils.py:151
+[13:01:17] 🎉 Done COLMAP bundle adjustment.                                                         colmap_utils.py:173
+[13:04:08] 🎉 Done refining intrinsics.                                                              colmap_utils.py:184
+[13:04:15] 🎉 🎉 🎉 All DONE 🎉 🎉 🎉                                                 video_to_nerfstudio_dataset.py:149
+           Starting with 1104 video frames                                            video_to_nerfstudio_dataset.py:152
+           We extracted 368 images with prefix 'frame_'                               video_to_nerfstudio_dataset.py:152
+           Colmap matched 368 images                                                  video_to_nerfstudio_dataset.py:152
+           COLMAP found poses for all images, CONGRATS!                               video_to_nerfstudio_dataset.py:152
