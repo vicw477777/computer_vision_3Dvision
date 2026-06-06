@@ -1,4 +1,4 @@
-# MLMI17 Coursework2 3D vision
+# 3D vision
 
 ![MLMI17 CW2 report page 3](assets/readme/mlmi17_cw2_yw787_page_3.png)
 
